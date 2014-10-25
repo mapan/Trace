@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B5BCF6419FC437B00F78895 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6219FC437B00F78895 /* HomeViewController.swift */; };
-		1B5BCF6819FC447300F78895 /* TravelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6619FC447300F78895 /* TravelsViewController.swift */; };
 		1B5BCF6C19FC449200F78895 /* AddTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */; };
 		1B5BCF6D19FC449200F78895 /* AddTravelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */; };
-		1BB3DB6619FC4D9200EC881C /* HomeViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB3DB6519FC4D9200EC881C /* HomeViewHeader.xib */; };
-		914F471819FC2B9400DF7427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F471719FC2B9400DF7427 /* AppDelegate.swift */; };
+		1BB3DB6819FC516900EC881C /* HomeViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB3DB6719FC516900EC881C /* HomeViewHeader.xib */; };
+		1BB3DB6B19FC5FAD00EC881C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3DB6A19FC5FAD00EC881C /* AppDelegate.m */; };
+		1BB3DB6F19FC607400EC881C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3DB6E19FC607400EC881C /* HomeViewController.m */; };
+		1BB3DB7219FC609700EC881C /* TravelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3DB7119FC609700EC881C /* TravelsViewController.m */; };
+		1BB3DB7419FC61E900EC881C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3DB7319FC61E900EC881C /* main.m */; };
 		914F472119FC2B9400DF7427 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914F472019FC2B9400DF7427 /* Images.xcassets */; };
 		914F472419FC2B9400DF7427 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914F472219FC2B9400DF7427 /* LaunchScreen.xib */; };
 		914F473019FC2B9400DF7427 /* TraceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F472F19FC2B9400DF7427 /* TraceTests.swift */; };
@@ -29,14 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B5BCF6219FC437B00F78895 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		1B5BCF6619FC447300F78895 /* TravelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelsViewController.swift; sourceTree = "<group>"; };
 		1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTravelViewController.swift; sourceTree = "<group>"; };
 		1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTravelViewController.xib; sourceTree = "<group>"; };
-		1BB3DB6519FC4D9200EC881C /* HomeViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewHeader.xib; sourceTree = "<group>"; };
+		1BB3DB6719FC516900EC881C /* HomeViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewHeader.xib; path = ../HomeViewHeader.xib; sourceTree = "<group>"; };
+		1BB3DB6919FC5FAC00EC881C /* Trace-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trace-Bridging-Header.h"; sourceTree = "<group>"; };
+		1BB3DB6A19FC5FAD00EC881C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BB3DB6C19FC600B00EC881C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BB3DB6D19FC607400EC881C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1BB3DB6E19FC607400EC881C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1BB3DB7019FC609700EC881C /* TravelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelsViewController.h; sourceTree = "<group>"; };
+		1BB3DB7119FC609700EC881C /* TravelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelsViewController.m; sourceTree = "<group>"; };
+		1BB3DB7319FC61E900EC881C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		914F471219FC2B9400DF7427 /* Trace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914F471619FC2B9400DF7427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		914F471719FC2B9400DF7427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		914F472019FC2B9400DF7427 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		914F472319FC2B9400DF7427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		914F472919FC2B9400DF7427 /* TraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,15 +89,19 @@
 		914F471419FC2B9400DF7427 /* Trace */ = {
 			isa = PBXGroup;
 			children = (
-				914F471719FC2B9400DF7427 /* AppDelegate.swift */,
-				1B5BCF6219FC437B00F78895 /* HomeViewController.swift */,
-				1BB3DB6519FC4D9200EC881C /* HomeViewHeader.xib */,
-				1B5BCF6619FC447300F78895 /* TravelsViewController.swift */,
+				1BB3DB6C19FC600B00EC881C /* AppDelegate.h */,
+				1BB3DB6A19FC5FAD00EC881C /* AppDelegate.m */,
+				1BB3DB6D19FC607400EC881C /* HomeViewController.h */,
+				1BB3DB6E19FC607400EC881C /* HomeViewController.m */,
+				1BB3DB6719FC516900EC881C /* HomeViewHeader.xib */,
+				1BB3DB7019FC609700EC881C /* TravelsViewController.h */,
+				1BB3DB7119FC609700EC881C /* TravelsViewController.m */,
 				1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */,
 				1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */,
 				914F472019FC2B9400DF7427 /* Images.xcassets */,
 				914F472219FC2B9400DF7427 /* LaunchScreen.xib */,
 				914F471519FC2B9400DF7427 /* Supporting Files */,
+				1BB3DB6919FC5FAC00EC881C /* Trace-Bridging-Header.h */,
 			);
 			path = Trace;
 			sourceTree = "<group>";
@@ -100,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				914F471619FC2B9400DF7427 /* Info.plist */,
+				1BB3DB7319FC61E900EC881C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,7 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB3DB6619FC4D9200EC881C /* HomeViewHeader.xib in Resources */,
+				1BB3DB6819FC516900EC881C /* HomeViewHeader.xib in Resources */,
 				914F472419FC2B9400DF7427 /* LaunchScreen.xib in Resources */,
 				914F472119FC2B9400DF7427 /* Images.xcassets in Resources */,
 				1B5BCF6D19FC449200F78895 /* AddTravelViewController.xib in Resources */,
@@ -222,10 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914F471819FC2B9400DF7427 /* AppDelegate.swift in Sources */,
-				1B5BCF6419FC437B00F78895 /* HomeViewController.swift in Sources */,
+				1BB3DB7419FC61E900EC881C /* main.m in Sources */,
+				1BB3DB7219FC609700EC881C /* TravelsViewController.m in Sources */,
 				1B5BCF6C19FC449200F78895 /* AddTravelViewController.swift in Sources */,
-				1B5BCF6819FC447300F78895 /* TravelsViewController.swift in Sources */,
+				1BB3DB6B19FC5FAD00EC881C /* AppDelegate.m in Sources */,
+				1BB3DB6F19FC607400EC881C /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +352,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Trace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trace/Trace-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +365,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Trace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trace/Trace-Bridging-Header.h";
 			};
 			name = Release;
 		};
