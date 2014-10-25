@@ -13,13 +13,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds);
     
+    //Home view controller
     let hvc = HomeViewController();
-    self.window?.rootViewController = hvc;
+    hvc.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "home"), tag: 1);
+    //Travels view controller
+    let tvc = TravelsViewController();
+    tvc.tabBarItem = UITabBarItem(title: "Travels", image: UIImage(named: "first"), tag: 2);
+    //Tab bar controller
+    let tbc = UITabBarController();
+    tbc.viewControllers = [hvc, tvc];
     
+    //Set tab bar controller as main controller for app
+    self.window?.rootViewController = tbc;
+    
+    //Other setup
     self.window?.backgroundColor = UIColor.whiteColor();
     self.window?.makeKeyAndVisible();
     return true
