@@ -11,6 +11,7 @@
 		1B5BCF6819FC447300F78895 /* TravelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6619FC447300F78895 /* TravelsViewController.swift */; };
 		1B5BCF6C19FC449200F78895 /* AddTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */; };
 		1B5BCF6D19FC449200F78895 /* AddTravelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */; };
+		1BB3DB6619FC4D9200EC881C /* HomeViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB3DB6519FC4D9200EC881C /* HomeViewHeader.xib */; };
 		914F471819FC2B9400DF7427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F471719FC2B9400DF7427 /* AppDelegate.swift */; };
 		914F472119FC2B9400DF7427 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914F472019FC2B9400DF7427 /* Images.xcassets */; };
 		914F472419FC2B9400DF7427 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914F472219FC2B9400DF7427 /* LaunchScreen.xib */; };
@@ -32,6 +33,7 @@
 		1B5BCF6619FC447300F78895 /* TravelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelsViewController.swift; sourceTree = "<group>"; };
 		1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTravelViewController.swift; sourceTree = "<group>"; };
 		1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTravelViewController.xib; sourceTree = "<group>"; };
+		1BB3DB6519FC4D9200EC881C /* HomeViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewHeader.xib; sourceTree = "<group>"; };
 		914F471219FC2B9400DF7427 /* Trace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914F471619FC2B9400DF7427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		914F471719FC2B9400DF7427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				914F471719FC2B9400DF7427 /* AppDelegate.swift */,
 				1B5BCF6219FC437B00F78895 /* HomeViewController.swift */,
+				1BB3DB6519FC4D9200EC881C /* HomeViewHeader.xib */,
 				1B5BCF6619FC447300F78895 /* TravelsViewController.swift */,
 				1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */,
 				1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB3DB6619FC4D9200EC881C /* HomeViewHeader.xib in Resources */,
 				914F472419FC2B9400DF7427 /* LaunchScreen.xib in Resources */,
 				914F472119FC2B9400DF7427 /* Images.xcassets in Resources */,
 				1B5BCF6D19FC449200F78895 /* AddTravelViewController.xib in Resources */,
