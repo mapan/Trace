@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5BCF6419FC437B00F78895 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6219FC437B00F78895 /* HomeViewController.swift */; };
+		1B5BCF6519FC437B00F78895 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6319FC437B00F78895 /* HomeViewController.xib */; };
+		1B5BCF6819FC447300F78895 /* TravelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6619FC447300F78895 /* TravelsViewController.swift */; };
+		1B5BCF6919FC447300F78895 /* TravelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6719FC447300F78895 /* TravelsViewController.xib */; };
+		1B5BCF6C19FC449200F78895 /* AddTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */; };
+		1B5BCF6D19FC449200F78895 /* AddTravelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */; };
 		914F471819FC2B9400DF7427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F471719FC2B9400DF7427 /* AppDelegate.swift */; };
-		914F471A19FC2B9400DF7427 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F471919FC2B9400DF7427 /* FirstViewController.swift */; };
-		914F471C19FC2B9400DF7427 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F471B19FC2B9400DF7427 /* SecondViewController.swift */; };
 		914F472119FC2B9400DF7427 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914F472019FC2B9400DF7427 /* Images.xcassets */; };
 		914F472419FC2B9400DF7427 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914F472219FC2B9400DF7427 /* LaunchScreen.xib */; };
 		914F473019FC2B9400DF7427 /* TraceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F472F19FC2B9400DF7427 /* TraceTests.swift */; };
@@ -26,11 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5BCF6219FC437B00F78895 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B5BCF6319FC437B00F78895 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1B5BCF6619FC447300F78895 /* TravelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelsViewController.swift; sourceTree = "<group>"; };
+		1B5BCF6719FC447300F78895 /* TravelsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelsViewController.xib; sourceTree = "<group>"; };
+		1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTravelViewController.swift; sourceTree = "<group>"; };
+		1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTravelViewController.xib; sourceTree = "<group>"; };
 		914F471219FC2B9400DF7427 /* Trace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914F471619FC2B9400DF7427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		914F471719FC2B9400DF7427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		914F471919FC2B9400DF7427 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		914F471B19FC2B9400DF7427 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		914F472019FC2B9400DF7427 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		914F472319FC2B9400DF7427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		914F472919FC2B9400DF7427 /* TraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				914F471719FC2B9400DF7427 /* AppDelegate.swift */,
-				914F471919FC2B9400DF7427 /* FirstViewController.swift */,
-				914F471B19FC2B9400DF7427 /* SecondViewController.swift */,
+				1B5BCF6219FC437B00F78895 /* HomeViewController.swift */,
+				1B5BCF6319FC437B00F78895 /* HomeViewController.xib */,
+				1B5BCF6619FC447300F78895 /* TravelsViewController.swift */,
+				1B5BCF6719FC447300F78895 /* TravelsViewController.xib */,
+				1B5BCF6A19FC449200F78895 /* AddTravelViewController.swift */,
+				1B5BCF6B19FC449200F78895 /* AddTravelViewController.xib */,
 				914F472019FC2B9400DF7427 /* Images.xcassets */,
 				914F472219FC2B9400DF7427 /* LaunchScreen.xib */,
 				914F471519FC2B9400DF7427 /* Supporting Files */,
@@ -194,6 +206,9 @@
 			files = (
 				914F472419FC2B9400DF7427 /* LaunchScreen.xib in Resources */,
 				914F472119FC2B9400DF7427 /* Images.xcassets in Resources */,
+				1B5BCF6919FC447300F78895 /* TravelsViewController.xib in Resources */,
+				1B5BCF6D19FC449200F78895 /* AddTravelViewController.xib in Resources */,
+				1B5BCF6519FC437B00F78895 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914F471C19FC2B9400DF7427 /* SecondViewController.swift in Sources */,
 				914F471819FC2B9400DF7427 /* AppDelegate.swift in Sources */,
-				914F471A19FC2B9400DF7427 /* FirstViewController.swift in Sources */,
+				1B5BCF6419FC437B00F78895 /* HomeViewController.swift in Sources */,
+				1B5BCF6C19FC449200F78895 /* AddTravelViewController.swift in Sources */,
+				1B5BCF6819FC447300F78895 /* TravelsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds);
     
-    let fvc = FirstViewController();
-    self.window?.rootViewController = fvc;
+    let hvc = HomeViewController();
+    self.window?.rootViewController = hvc;
     
     self.window?.backgroundColor = UIColor.whiteColor();
     self.window?.makeKeyAndVisible();
