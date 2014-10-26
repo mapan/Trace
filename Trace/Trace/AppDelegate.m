@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
 #import "HomeViewController.h"
-#import "TravelsViewController.h"
+#import "Trace-Swift.h"
 
 @interface AppDelegate ()
 
