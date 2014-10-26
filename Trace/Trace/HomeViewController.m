@@ -56,5 +56,8 @@
     return cell;
 } //end function cellForRowAtIndexPath
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return @"Friends Around You";
+}
 
 @end
